@@ -9,9 +9,9 @@
 	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
 	<meta name="keywords" content="sitio, institucional, userena, uls, periodismo" />
 	<meta name="description" content="Sitio de la carrera de Periodismo de la Universidad de La Serena" />
+	
 
-
-	<title>Observatorio Laboral Coquimbo</title>
+	<title>ULS | Escuela de Periodismo</title>
 
 
 	<link href="css/bootstrap.min.css" rel="stylesheet">
@@ -67,7 +67,7 @@
 						<div style="width:100%; max-width:600px; display:inline-block;">
 			<div class="monthly" id="mycalendar"></div>
 		</div>
-
+						
 					</div>
 				</div>
 				<div class="col-md-6 antipadding">
@@ -123,15 +123,15 @@
 
 	$(window).load( function() {
 
-
+		
 		$('#mycalendar').monthly({
 			mode: 'event',
 			jsonUrl: 'admin/controllers/controlador_calendario.php',
 			dataType: 'json'
-
+			
 		});
 
-
+		
 	switch(window.location.protocol) {
 	case 'http:':
 	case 'https:':
