@@ -21,19 +21,19 @@
           <a href="escuela.php" class="dropdown-toggle" data-toggle="dropdown">Escuela <b class="caret"></b></a>
           <ul class="dropdown-menu escuela">
             <li>
-              <a href="bienvenidos.html">Bienvenidos</a>
+              <a href="bienvenidos.php">Bienvenidos</a>
             </li>
             <li>
-              <a href="equipo.html">Equipo de trabajo</a>
+              <a href="equipo.php">Equipo de trabajo</a>
             </li>
             <li>
-              <a href="escuela.html">Misión</a>
+              <a href="escuela.php">Misión</a>
             </li>
             <li>
-              <a href="escuela.html">Visión</a>
+              <a href="escuela.php">Visión</a>
             </li>
             <li>
-              <a href="escuela.html">Normativas</a>
+              <a href="escuela.php">Normativas</a>
             </li>
           </ul>
         </li>
@@ -41,15 +41,15 @@
           <a href="perfil.php" class="dropdown-toggle" data-toggle="dropdown">Carrera <b class="caret"></b></a>
           <ul class="dropdown-menu carrera">
             <li>
-              <a href="perfil.html">Perfil</a>
+              <a href="perfil.php">Perfil</a>
             </li>
             <li>
-              <a href="perfil.html">Admisión</a>
+              <a href="perfil.php">Admisión</a>
             </li>
           </ul>
         </li>
         <li>
-          <a href="docentes.html">Cuerpo Docente</a>
+          <a href="docentes.php">Cuerpo Docente</a>
         </li>
         <li>
           <a class="noticias" href="noticias/1">Noticias</a>
@@ -58,10 +58,10 @@
           <a class = "galer" href="galerias/1">Galerías Fotográficas</a>
         </li>
         <li class="dropdown">
-          <a href="publicaciones.html">Publicaciones</a>
+          <a href="publicaciones.php">Publicaciones</a>
         </li>
         <li >
-          <a class="contac" href="contacto.html">Contacto</a>
+          <a class="contac" href="contacto.php">Contacto</a>
         </li>
       </ul>
     </div>
