@@ -1,5 +1,5 @@
 <!-- Navegacion -->
-<nav  class="navbar navbar-inverse" role="navigation">
+<nav  class="navbar navbar-default" role="navigation">
   <div class="container">
     <!-- Brand and toggle get grouped for better mobile display -->
     <div class="navbar-header">
@@ -13,7 +13,7 @@
     </div>
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse mobilnav" id="bs-example-navbar-collapse-1">
-      <ul id="nav"  class="nav navbar-nav navbar-right">
+      <ul id="nav"  class="nav navbar-nav navbar-nav-def">
         <li >
           <a href="./">Home</a>
         </li>

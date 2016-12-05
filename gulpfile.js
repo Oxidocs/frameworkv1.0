@@ -15,7 +15,7 @@ var plumberErrorHandler = {erroHandler: notify.onError({
 //tareas
 
 gulp.task('php', function(){
-  gulp.src('./*.php')
+  gulp.src('./**/*.php')
     .pipe(gulp.dest('./**/*.php'))
 });
 
