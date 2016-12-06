@@ -3,12 +3,20 @@ header.carousel {
 
 .navbar-inverse {
   background-color: #e2e2e2 !important;
-  border-bottom: none !important;
-  border-color: none !important; }
+  border: none !important; }
+
+body {
+  box-sizing: border-box;
+  margin: 0;
+  background: red; }
 
 .navbar .navbar-nav {
   display: inline-block;
   float: none; }
+
+.navbar {
+  background: #ffffff;
+  border-radius: 0px !important; }
 
 .navbar .navbar-collapse {
   text-align: center; }
@@ -19,4 +27,29 @@ header.carousel {
   left: 0;
   right: 0;
   z-index: 1000;
-  top: 250px; }
+  top: 249px; }
+
+@media only screen and (min-width: 320px) {
+  .container {
+    padding-left: 15px !important;
+    padding-right: 15px !important; } }
+
+@media only screen and (min-width: 480px) {
+  .container {
+    padding-left: 15px !important;
+    padding-right: 15px !important; } }
+
+@media only screen and (min-width: 768px) {
+  .container {
+    padding-left: 15px !important;
+    padding-right: 15px !important; } }
+
+@media only screen and (min-width: 992px) {
+  .container {
+    padding-left: 70px !important;
+    padding-right: 70px !important; } }
+
+@media only screen and (min-width: 1200px) {
+  .container {
+    padding-left: 70px !important;
+    padding-right: 70px !important; } }

@@ -26,7 +26,7 @@
 			    {
 		    ?>
 				<div class="item <?php if($i==0){echo "active";}$i++;?>">
-				    <a href="<?php echo $obj->TITULO;?>"> 
+				    <a href="<?php echo $obj->TITULO;?>">
 						<div class="fill" style="background-image:url('<?php
 							if ($obj->PATH=="default.png")
 							{
@@ -53,7 +53,7 @@
 					<div class="fill" style="background-image:url('http://placehold.it/1900x1080&text=Imagen Uno');">
 					</div>
 					<div class="carousel-caption">
-						<h2>Descripción</h2>
+						<h2></h2>
 					</div>
 				</div>
 
@@ -63,10 +63,10 @@
 		</div>
 
 		<!-- Controls -->
-		<a class="left carousel-control" href="#myCarousel" data-slide="prev">
+		<!-- <a class="left carousel-control" href="#myCarousel" data-slide="prev">
 			<span class="icon-prev"></span>
 		</a>
 		<a class="right carousel-control" href="#myCarousel" data-slide="next">
 			<span class="icon-next"></span>
-		</a>
+		</a> -->
 	</header>

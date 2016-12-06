@@ -1,9 +1,18 @@
+body
+  box-sizing: border-box
+  margin: 0
+  background: red
+
 .navbar .navbar-nav
-    display: inline-block
-    float: none
+  display: inline-block
+  float: none
+
+.navbar
+  background: #ffffff
+  border-radius: 0px !important
 
 .navbar .navbar-collapse
-    text-align: center
+  text-align: center
 
 .barra
   position: absolute
@@ -11,4 +20,21 @@
   left: 0
   right: 0
   z-index: 1000
-  top: 250px
+  top: 249px
+
+.container
+  @media only screen and (min-width: 320px)
+     padding-left: 15px !important
+     padding-right: 15px !important
+  @media only screen and (min-width: 480px)
+     padding-left: 15px !important
+     padding-right: 15px !important
+  @media only screen and (min-width: 768px)
+     padding-left: 15px !important
+     padding-right: 15px !important
+  @media only screen and (min-width: 992px)
+     padding-left: 70px !important
+     padding-right: 70px !important
+  @media only screen and (min-width: 1200px)
+     padding-left: 70px !important
+     padding-right: 70px !important
