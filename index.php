@@ -46,11 +46,7 @@
 	include 'include/topnav.php';
 	include 'include/slider-home.php';
 	include 'include/nav2.php';
-
 	?>
-
-
-
 	<!-- contenidos -->
 	<section>
 		<div class="container">
@@ -65,15 +61,12 @@
 						include 'include/noticias.php';
 					 ?>
 				</div>
-				<div class="col-md-4">
-					<?php
-						include 'include/hilo_noticia.php'
-					?>
+				<div class="col-xs-12 col-md-4">
+					
 				</div>
 			</div>
 		</div>
 	</section>
-
 	<?php
 	include 'include/footer.php';
 	?>
