@@ -166,31 +166,6 @@ nav#menu-principal ul li a:hover {
   z-index: 1000;
   top: 299px; }
 
-@media only screen and (min-width: 320px) {
-  .container {
-    padding-left: 15px !important;
-    padding-right: 15px !important; } }
-
-@media only screen and (min-width: 480px) {
-  .container {
-    padding-left: 15px !important;
-    padding-right: 15px !important; } }
-
-@media only screen and (min-width: 768px) {
-  .container {
-    padding-left: 15px !important;
-    padding-right: 15px !important; } }
-
-@media only screen and (min-width: 992px) {
-  .container {
-    padding-left: 15px !important;
-    padding-right: 15px !important; } }
-
-@media only screen and (min-width: 1200px) {
-  .container {
-    padding-left: 15px !important;
-    padding-right: 15px !important; } }
-
 .fondocontenidos-bienvenido {
   margin-top: 20px; }
   .fondocontenidos-bienvenido h3 {
@@ -201,12 +176,13 @@ nav#menu-principal ul li a:hover {
 .footer-observatorio-ucn {
   background-color: #ffffff;
   padding: 20px;
-  margin-bottom: 20px;
   border: 1px solid #dbd7d2;
   height: 200px !important; }
 
 .tarjeta-noticias {
   background: #FFF; }
+  .tarjeta-noticias p {
+    text-align: justify; }
 
 .tarjeta-noticias-imagen {
   width: 100%; }
@@ -238,6 +214,37 @@ nav#menu-principal ul li a:hover {
   display: block;
   font-size: 12px;
   margin: 0 0 15px; }
+
+@media only screen and (min-width: 320px) {
+  .barra {
+    padding-left: 0px !important;
+    padding-right: 0px !important; }
+  #logo {
+    display: none; } }
+
+@media only screen and (min-width: 480px) {
+  .container {
+    padding-left: 15px !important;
+    padding-right: 15px !important; } }
+
+@media only screen and (min-width: 768px) {
+  .container {
+    padding-left: 15px !important;
+    padding-right: 15px !important; } }
+
+@media only screen and (min-width: 992px) {
+  .container {
+    padding-left: 15px !important;
+    padding-right: 15px !important; }
+  #logo {
+    display: block; } }
+
+@media only screen and (min-width: 1200px) {
+  .container {
+    padding-left: 15px !important;
+    padding-right: 15px !important; }
+  #logo {
+    display: block; } }
 
 body {
   background: #f5f5f5; }

@@ -3,9 +3,9 @@
   <div class="container">
 <div class="row">
   <div class="col-md-12" >
-    <div class="col-md-4 col-xs-4" style="height: 5px;background-color: #E73634;">
+    <div class="col-md-5 col-xs-5" style="height: 5px;background-color: #E73634;">
     </div>
-    <div class="col-md-8 col-xs-8" style="height: 5px;background-color: #0b7bd0;">
+    <div class="col-md-7 col-xs-7" style="height: 5px;background-color: #0b7bd0;">
     </div>
   </div>
 </div>

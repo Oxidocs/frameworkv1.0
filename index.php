@@ -42,6 +42,34 @@
 </head>
 
 <body>
+	<div id="fb-root"></div>
+	<script>
+	(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/es_ES/sdk.js#xfbml=1&version=v2.8&appId=396093144062831";
+  fjs.parentNode.insertBefore(js, fjs);
+	}(document, 'script', 'facebook-jssdk'));
+	</script>
+
+	<script>window.twttr = (function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0],
+    t = window.twttr || {};
+  if (d.getElementById(id)) return t;
+  js = d.createElement(s);
+  js.id = id;
+  js.src = "https://platform.twitter.com/widgets.js";
+  fjs.parentNode.insertBefore(js, fjs);
+
+  t._e = [];
+  t.ready = function(f) {
+    t._e.push(f);
+  };
+
+  return t;
+}(document, "script", "twitter-wjs"));</script>
+
 	<?php
 	include 'include/topnav.php';
 	include 'include/slider-home.php';
@@ -54,7 +82,6 @@
 				<div class="col-xs-12 col-md-8">
 					<?php
 						include 'include/bienvenido.php';
-
 					?>
 					<h4 class="titulo-seccion">Últimas Noticias</h4>
 					<?php
@@ -62,7 +89,7 @@
 					 ?>
 				</div>
 				<div class="col-xs-12 col-md-4">
-					
+
 				</div>
 			</div>
 		</div>
