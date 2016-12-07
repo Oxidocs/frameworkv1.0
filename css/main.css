@@ -221,6 +221,8 @@ nav#menu-principal ul li a:hover {
 .tarjeta-noticias-texto_izquierda {
   float: left;
   width: 300px; }
+  .tarjeta-noticias-texto_izquierda a {
+    text-decoration: none; }
 
 .tarjeta-noticias-texto_derecha {
   float: right;
