@@ -2,6 +2,23 @@ body
   box-sizing: border-box
   margin: 0
 
+nav#menu-principal ul li a
+    height: 50px !important
+    padding: 18px 0 12px 0 !important
+    display: block !important
+    border-right: 1px solid #e6e6e6 !important
+    border-bottom: 2px solid #bdc9d1 !important
+    color: #000000
+    font-size: 12px !important
+
+nav#menu-principal ul li.current-menu-ancestor a
+    color: #0f69b4
+    border-bottom: 2px solid #0f69b4 !important
+
+nav#menu-principal ul li a:hover
+    color: #0f69b4
+    border-bottom: 2px solid #0f69b4 !important
+
 
 .navbar .navbar-nav
   display: inline-block
@@ -13,6 +30,8 @@ body
 
 .navbar .navbar-collapse
   text-align: center
+  padding-right: 0px
+  padding-left: 0px
 
 .barra
   position: absolute
@@ -20,7 +39,7 @@ body
   left: 0
   right: 0
   z-index: 1000
-  top: 249px
+  top: 299px
 
 .container
   @media only screen and (min-width: 320px)
