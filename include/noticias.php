@@ -11,7 +11,7 @@
       </a></h4>
     </div>
     <div class="tarjeta-noticias-texto_derecha">
-      <span class="meta">11 de marzo de 2014</span>
+      <span class="tarjeta-noticias-span">11 de marzo de 2014</span>
       <p>Etiam vel tempor urna, eu viverra lacus. Vestibulum imperdiet, eros ac tristique ullamcorper, turpis mi mollis leo, tempor pellentesque lectus eros quis arcu. Nunc condimentum orci a mi cursus porttitor. Etiam aliquam vulputate mauris et blandit. Nunc tortor nunc</p>
     </div>
     <div class="clearfix"></div>
