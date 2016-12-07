@@ -82,3 +82,10 @@ nav#menu-principal ul li a:hover {
   .container {
     padding-left: 15px !important;
     padding-right: 15px !important; } }
+
+.footer-observatorio-ucn {
+  background-color: #ffffff;
+  padding: 20px;
+  margin-bottom: 20px;
+  border: 1px solid #dbd7d2;
+  height: 200px !important; }
