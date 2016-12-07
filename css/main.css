@@ -9,6 +9,10 @@ header.carousel {
   margin-top: 10px;
   padding: 0; }
 
+#logo.logo-ancho {
+  width: 200px;
+  height: auto; }
+
 .search-query:focus + button {
   z-index: 3; }
 
@@ -71,10 +75,10 @@ nav#menu-principal ul li a:hover {
 
 @media only screen and (min-width: 992px) {
   .container {
-    padding-left: 70px !important;
-    padding-right: 70px !important; } }
+    padding-left: 15px !important;
+    padding-right: 15px !important; } }
 
 @media only screen and (min-width: 1200px) {
   .container {
-    padding-left: 70px !important;
-    padding-right: 70px !important; } }
+    padding-left: 15px !important;
+    padding-right: 15px !important; } }

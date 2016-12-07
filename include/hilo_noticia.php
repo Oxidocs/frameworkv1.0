@@ -3,7 +3,7 @@
     require_once('cUrl.php');
 
     $domain = $_SERVER['HTTP_HOST'];
-    $url = 'http://'.$domain.'/admin/routes/hilo_noticia.php';
+    $url = 'http://'.$domain.'/frameworkv1.0/admin/routes/hilo_noticia.php';
     $json = obtener($url);
     $objs = json_decode($json);
     setlocale(LC_TIME, 'es_ES.UTF-8');
@@ -43,12 +43,12 @@
 	<p>
 		<?php
 		$texto =  strip_tags(html_entity_decode($obj->descripcion, ENT_NOQUOTES));
-		
+
 		echo substr($texto, 0, 100)."...";
 		?>
 	</p>
 	<a id="leermas" class="btn btn-primary pull-right" href="single_noticias/<?php echo $obj->id; ?>">
-		Leer más 
+		Leer más
 		<i class="fa fa-angle-right"></i>
 	</a>
 	<div class="clearfix">
@@ -72,10 +72,10 @@
 	<hr>
 	<p>Con el objetivo de discutir y apoyar la organización del XVI Encuentro de la Federación Latinoamericana de Facultades de Comunicación Social (FELAFACS), es que durante la semana pasada el Director de carrera, Cristian Muñoz Catalán, visitó la Escuela de Periodismo de la Pontificia Universidad Católica de Valparaíso...</p>
 	<a id="leermas" class="btn btn-primary pull-right" href="#">Leer más <i class="fa fa-angle-right"></i></a>
-	<?php 
+	<?php
 	}
 	?>
-	
+
 	<div class="clearfix"></div>
 
 </div>
