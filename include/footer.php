@@ -29,3 +29,13 @@
     </div>
   </div>
 </footer>
+
+<!-- nuevo footer -->
+<footer>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-5 footer-observatorio-ucn-border-red"></div>
+      <div class="col-md-7 footer-observatorio-ucn-border-blue"></div>
+    </div>
+  </div>
+</footer>

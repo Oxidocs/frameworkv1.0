@@ -9,11 +9,20 @@
 	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
 	<meta name="keywords" content="sitio, institucional, userena, uls, periodismo" />
 	<meta name="description" content="Sitio de la carrera de Periodismo de la Universidad de La Serena" />
+
+
 	<title>Observatorio Laboral Coquimbo</title>
+
+
 	<link href="css/bootstrap.min.css" rel="stylesheet">
-  <link rel="stylesheet" href="css/main.css">
-  <link href="css/modern-business.css" rel="stylesheet">
-  <link rel="stylesheet" href="css/lightbox.min.css">
+
+	<link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/estilos.css">
+
+
+	<link href="css/modern-business.css" rel="stylesheet">
+
+	<link rel="stylesheet" href="css/lightbox.min.css">
 
 	<!-- fuentes -->
 
@@ -45,25 +54,19 @@
 	<?php
 	include 'include/topnav.php';
 	include 'include/slider-home.php';
+	// include 'include/nav.php';
 	include 'include/nav2.php';
 
 	?>
 
-
-
 	<!-- contenidos -->
-	<section>
+	<section class="fondocontenidos">
 		<div class="container">
 			<div class="row">
-				<div class="col-xs-12 col-md-8">
+				<div class="col-md-8">
 					<?php
-						include 'include/bienvenido.php';
-
+						include 'include/hilo_noticia.php'
 					?>
-					<h4 class="titulo-seccion">Últimas Noticias</h4>
-					<?php
-						include 'include/noticias.php';
-					 ?>
 				</div>
 				<div class="col-md-4">
 					<?php
