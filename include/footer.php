@@ -13,16 +13,16 @@
       <div class="col-md-12">
         <div class="footer-observatorio-ucn">
           <div class="col-lg-3" style="    min-height: 100%;display: flex;align-items: center;">
-            <img src="images/logo1.png" alt="" class="img-responsive">
+            <img src="images/footer/logo1.png" alt="" class="img-responsive">
           </div>
           <div class="col-lg-2" style="    min-height: 100%;display: flex;align-items: center;">
-            <a href="#"><img class="center-block img-responsive" src="images/logo2.png"/></a>
+            <a href="#"><img class="center-block img-responsive" src="images/footer/logo2.png"/></a>
           </div>
           <div class="col-lg-3" style="    min-height: 100%;display: flex;align-items: center;">
-            <a href="#"><img class="center-block img-responsive" src="images/logo3.png"/></a>
+            <a href="#"><img class="center-block img-responsive" src="images/footer/logo3.png"/></a>
           </div>
           <div class="col-lg-4" style="    min-height: 100%;display: flex;align-items: center;">
-            <a href="#"><img class="center-block img-responsive" src="images/logo4.png"/></a>
+            <a href="#"><img class="center-block img-responsive" src="images/footer/logo4.png"/></a>
           </div>
         </div>
       </div>

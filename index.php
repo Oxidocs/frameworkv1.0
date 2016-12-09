@@ -8,7 +8,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
 	<meta name="keywords" content="sitio, institucional, userena, uls, periodismo" />
-	<meta name="description" content="Sitio de la carrera de Periodismo de la Universidad de La Serena" />
+	<meta name="description" content="El Observatorio Laboral de Coquimbo (OLC) se enmarca en un proyecto nacional de instalación de observatorios laborales en todas las regiones del país." />
 	<title>Observatorio Laboral Coquimbo</title>
 	<link href="css/bootstrap.min.css" rel="stylesheet">
   <link rel="stylesheet" href="css/main.css">
@@ -25,10 +25,8 @@
 
 	<link rel="apple-touch-icon" href="favicon.png">
 	<link rel="icon" type="image/png" href="favicon.png" />
-	<link rel="stylesheet" href="css/monthly.css">
 	<!-- jQuery -->
 	<script src="js/jquery.js"></script>
-
 	<!-- Bootstrap Core JavaScript -->
 	<script src="js/bootstrap.min.js"></script>
 
@@ -38,47 +36,49 @@
         <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
-
 </head>
 
 <body>
+
 	<div id="fb-root"></div>
 	<script>
-	(function(d, s, id) {
-  var js, fjs = d.getElementsByTagName(s)[0];
-  if (d.getElementById(id)) return;
-  js = d.createElement(s); js.id = id;
-  js.src = "//connect.facebook.net/es_ES/sdk.js#xfbml=1&version=v2.8&appId=396093144062831";
-  fjs.parentNode.insertBefore(js, fjs);
-	}(document, 'script', 'facebook-jssdk'));
+		(function(d, s, id) {
+		  var js, fjs = d.getElementsByTagName(s)[0];
+		  if (d.getElementById(id)) return;
+		  js = d.createElement(s); js.id = id;
+		  js.src = "//connect.facebook.net/es_ES/sdk.js#xfbml=1&version=v2.8&appId=396093144062831";
+		  fjs.parentNode.insertBefore(js, fjs);
+		}(document, 'script', 'facebook-jssdk'));
+	</script>
+	<script>
+		window.twttr = (function(d, s, id) {
+		  var js, fjs = d.getElementsByTagName(s)[0],
+		    t = window.twttr || {};
+		  if (d.getElementById(id)) return t;
+		  js = d.createElement(s);
+		  js.id = id;
+		  js.src = "https://platform.twitter.com/widgets.js";
+		  fjs.parentNode.insertBefore(js, fjs);
+		  t._e = [];
+		  t.ready = function(f) {
+		    t._e.push(f);
+		  };
+	  	return t;
+		}(document, "script", "twitter-wjs"));
 	</script>
 
-	<script>window.twttr = (function(d, s, id) {
-  var js, fjs = d.getElementsByTagName(s)[0],
-    t = window.twttr || {};
-  if (d.getElementById(id)) return t;
-  js = d.createElement(s);
-  js.id = id;
-  js.src = "https://platform.twitter.com/widgets.js";
-  fjs.parentNode.insertBefore(js, fjs);
-
-  t._e = [];
-  t.ready = function(f) {
-    t._e.push(f);
-  };
-
-  return t;
-}(document, "script", "twitter-wjs"));</script>
-
 	<?php
+	// NAV TOP
 	include 'include/topnav.php';
+	// SLIDER
 	include 'include/slider-home.php';
+	// NAV PRINCIPAL
 	include 'include/nav2.php';
 	?>
 	<!-- contenidos -->
 	<section>
 		<div class="container">
-			<div class="row">
+			<div class="row fondocontenidos-bienvenido">
 				<div class="col-xs-12 col-md-8">
 					<?php
 						include 'include/bienvenido.php';
@@ -89,6 +89,9 @@
 					 ?>
 				</div>
 				<div class="col-xs-12 col-md-4">
+					<?php
+						include 'include/mapa.php';
+					 ?>
 
 				</div>
 			</div>

@@ -6,7 +6,7 @@
     z-index: 1000;
     ">
       <a class="page-scroll" href="#page-top">
-        <img id="logo" src="images/logo5.png" class="img-responsive logo-ancho" alt="">
+        <img id="logo" src="images/logo.png" class="img-responsive logo-ancho" alt="">
       </a>
     </div>
     <!-- Collect the nav links, forms, and other content for toggling -->
