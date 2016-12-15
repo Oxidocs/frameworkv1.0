@@ -7,7 +7,7 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
-	<meta name="keywords" content="sitio, institucional, userena, uls, periodismo" />
+	<meta name="keywords" content="sitio, institucional, ucn, universidad catolica norte, coquimbo" />
 	<meta name="description" content="El Observatorio Laboral de Coquimbo (OLC) se enmarca en un proyecto nacional de instalación de observatorios laborales en todas las regiones del país." />
 	<title>Observatorio Laboral Coquimbo</title>
 	<link href="css/bootstrap.min.css" rel="stylesheet">
