@@ -180,7 +180,8 @@ nav#menu-principal ul li a:hover {
   height: 200px !important; }
 
 .tarjeta-noticias {
-  background: #FFF; }
+  background: #FFF;
+  margin: 15px 0px; }
   .tarjeta-noticias p {
     text-align: justify; }
 
