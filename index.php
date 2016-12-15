@@ -91,6 +91,7 @@
 				<div class="col-xs-12 col-md-4">
 					<?php
 						include 'include/mapa.php';
+						include 'include/banners.php';
 					 ?>
 
 				</div>
