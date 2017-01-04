@@ -100,10 +100,20 @@
 	?>
 	<script src="js/main.js"></script>
 	<!-- Script to Activate the Carousel -->
+
+	<script src="js/hoverIntent.min.js"></script>
+	<!-- Script to Activate the Carousel -->
 	<script>
 		$('#myCarousel').carousel({
 			interval: 4000 //changes the speed
 		})
+
+		$( document ).ready(function() {
+  		coffee_navigation();
+			console.log("cargue");
+    });
+
+
 	</script>
 
 	<script src="js/lightbox.min.js"></script>

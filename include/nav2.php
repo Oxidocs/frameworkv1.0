@@ -11,11 +11,11 @@
       </div>
 
       <!-- Collect the nav links, forms, and other content for toggling -->
-      <div class="collapse navbar-collapse navbar-ex1-collapse">
+      <div  id="site-nav" class="collapse navbar-collapse navbar-ex1-collapse">
         <ul class="nav nav-justified">
           <li class="current-menu-ancestor"><a href="./">INICIO</a></li>
 
-          <li class="dropdown">
+          <li >
             <a href="quienes.php" class="dropdown-toggle">QUIÉNES SOMOS <b class="caret"></b></a>
             <ul class="dropdown-menu dropdown-menu-ul">
               <li>

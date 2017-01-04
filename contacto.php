@@ -113,6 +113,20 @@
     <!-- Do not edit these files! In order to set the email address and subject line for the contact form go to the bin/contact_me.php file. -->
     <script src="js/jqBootstrapValidation.js"></script>
     <script src="js/contact_me.js"></script>
+    <script src="js/hoverIntent.min.js"></script>
+  	<!-- Script to Activate the Carousel -->
+  	<script>
+  		$('#myCarousel').carousel({
+  			interval: 4000 //changes the speed
+  		})
+
+  		$( document ).ready(function() {
+    		coffee_navigation();
+  			console.log("cargue");
+      });
+
+
+  	</script>
 
 </body>
 
