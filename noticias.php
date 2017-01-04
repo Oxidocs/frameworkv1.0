@@ -5,7 +5,7 @@ if (isset($_GET['pagina']) && is_numeric($_GET['pagina'])) {
  	{
  		header('Location: ./');
  	}
- 	
+
  }
  else
  {
@@ -24,18 +24,15 @@ if (isset($_GET['pagina']) && is_numeric($_GET['pagina'])) {
 	<meta name="keywords" content="sitio, institucional, userena, uls, periodismo" />
 	<meta name="description" content="Sitio de la carrera de Periodismo de la Universidad de La Serena" />
 
-	<base href="<?php echo 'http://'.$domain; ?>" />
+	<!-- <base href="<?php //echo 'http://'.$domain; ?>" /> -->
 
 	<title>ULS | Escuela de Periodismo</title>
 
 
-	<link href="css/bootstrap.min.css" rel="stylesheet">
-
-
-	<link rel="stylesheet" href="css/estilos.css">
-
-
-	<link href="css/modern-business.css" rel="stylesheet">
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/main.css">
+  <link href="css/modern-business.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/lightbox.min.css">
 
 	<!-- fuentes -->
 
@@ -46,8 +43,11 @@ if (isset($_GET['pagina']) && is_numeric($_GET['pagina'])) {
 	<!-- <link rel="shortcut icon" type="image/x-icon" href="favicon.ico"> -->
 
 	<link rel="apple-touch-icon" href="favicon.png">
-
 	<link rel="icon" type="image/png" href="favicon.png" />
+	<!-- jQuery -->
+	<script src="js/jquery.js"></script>
+	<!-- Bootstrap Core JavaScript -->
+	<script src="js/bootstrap.min.js"></script>
 
 	<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
 	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -60,18 +60,30 @@ if (isset($_GET['pagina']) && is_numeric($_GET['pagina'])) {
 
 <body>
 	<?php
-	include 'include/header.php';
-	include 'include/nav.php';
+  // NAV TOP
+	include 'include/topnav.php';
+	// SLIDER
+	include 'include/slider-home.php';
+	include 'include/nav2.php';
 	?>
+  <section>
+		<div class="container">
+			<div class="row fondocontenidos-bienvenido">
+				<div class="col-xs-12 col-md-8">
+					<?php
+						include 'include/paginador_noticias.php';
+					?>
+				</div>
+				<div class="col-xs-12 col-md-4">
+					<?php
+						include 'include/mapa.php';
+						include 'include/banners.php';
+					 ?>
 
-  <section class="seccion-noticias">
-    <div class="container">
-      <?php
-        include 'include/paginador_noticias.php';
-      ?>
-
-    </div>
-  </section>
+				</div>
+			</div>
+		</div>
+	</section>
 
 
 <?php include 'include/footer.php'; ?>

@@ -20,7 +20,7 @@
 		    foreach ($objs as $obj)
 		    {
 	?>
-	<a href="single_noticias/<?php echo $obj->id; ?>">
+	<a href="single_noticias.php?id=/<?php echo $obj->id; ?>">
             <div style="height: 300px;
 									  width: 100%;
 									  border: 2px solid white;
@@ -31,7 +31,7 @@
             </div>
         </a>
 	<h2>
-	<a href="single_noticias/<?php echo $obj->id; ?>"><?php echo $obj->titulo; ?></a>
+	<a href="single_noticias.php?id=/<?php echo $obj->id; ?>"><?php echo $obj->titulo; ?></a>
 	</h2>
 	<p class="fecha"><i class="fa fa-clock-o"></i>Publicado el <?php  $date = date_create($obj->fecha_creacion);
         		$dia = date_format($date, 'd');
@@ -47,7 +47,7 @@
 		echo substr($texto, 0, 100)."...";
 		?>
 	</p>
-	<a id="leermas" class="btn btn-primary pull-right" href="single_noticias/<?php echo $obj->id; ?>">
+	<a id="leermas" class="btn btn-primary pull-right" href="single_noticias.php?id=/<?php echo $obj->id; ?>">
 		Leer más
 		<i class="fa fa-angle-right"></i>
 	</a>

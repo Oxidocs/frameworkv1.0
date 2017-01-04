@@ -5,45 +5,42 @@
     $json = "";
     $domain = $_SERVER['HTTP_HOST'];
     if (isset($_REQUEST['pagina']) && is_numeric($_REQUEST['pagina'])) {
-        $limite_desde = ($_REQUEST['pagina'] - 1) * 3;
+        $limite_desde = ($_REQUEST['pagina'] - 1) * 4;
         $domain = $_SERVER['HTTP_HOST'];
-        $url = 'http://'.$domain.'/admin/routes/paginador_noticias.php?limite_desde='.$limite_desde;
+        $url = 'http://'.$domain.'/frameworkv1.0/admin/routes/paginador_noticias.php?limite_desde='.$limite_desde;
         $json = obtener($url);
     }
-    
-    $url = 'http://'.$domain.'/admin/routes/paginador_noticias.php';
+
+    $url = 'http://'.$domain.'/frameworkv1.0/admin/routes/paginador_noticias.php';
     $cant_noticias = obtener($url);
     $objs2 = json_decode($cant_noticias);
     $numrows = count($objs2);
-    $total_pages = ceil($numrows/3);
+    $total_pages = ceil($numrows/4);
     $objs = json_decode($json);
     setlocale(LC_TIME, 'es_ES.UTF-8');
 ?>
 <!-- aglutinador noticias -->
 <!-- Projects Row -->
-<div class="row aglutinador">
-    <div class="row">
-        <div class="aglunoticias">
-            <h4 class="col-lg-3 col-md-3 col-xs-12">NOTICIAS</h4>
-        </div>
-    </div>
+
+
+
     <?php
     if(!$objs == null){
     $i=0;
     foreach ($objs as $obj)
     {
     ?>
-    <div class="col-md-4 img-portfolio">
-        <a href="single_noticias/<?php echo $obj->id; ?>">
+    <div class="col-md-6 img-portfolio">
+        <a href="single_noticias.php?id=<?php echo $obj->id; ?>">
             <div class="col-md-3 cover" style="background-image: url(img/galeria/noticias/<?php echo $obj->id.'/'.$obj->portada_contenido; ?>);">
             </div>
         </a>
         <br>
-        <h3>
-            <a href="single_noticias/<?php echo $obj->id; ?>">
+        <h4>
+            <a href="single_noticias.php?id=<?php echo $obj->id; ?>">
                 <?php echo $obj->titulo; ?>
             </a>
-        </h3>
+        </h4>
         <p>
             <?php
         $texto =  strip_tags(html_entity_decode($obj->descripcion, ENT_NOQUOTES));
@@ -82,7 +79,7 @@
     <?php
     }
     ?>
-</div>
+
 <!-- /.row -->
 <!-- Pagination -->
 <div class="row text-center">
@@ -108,7 +105,7 @@
             ?>
 
             <li class="<?php echo $clase; ?>">
-                <a href="noticias/<?php echo $i;?>"><?php echo $i;?></a>
+                <a href="noticias.php?pagina=<?php echo $i;?>"><?php echo $i;?></a>
             </li>
 
             <?php
@@ -119,7 +116,7 @@
                 # code...
             ?>
             <li>
-                <a href="noticias/<?php echo $_REQUEST['pagina']+1;?>">&raquo;</a>
+                <a href="noticias.php?pagina=<?php echo $_REQUEST['pagina']+1;?>">&raquo;</a>
             </li>
             <?php
         }

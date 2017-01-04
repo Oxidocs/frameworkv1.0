@@ -32,7 +32,7 @@
 <body class="nav-md">
     <div class="container body">
         <div class="main_container">
-        <?php 
+        <?php
             include("aside.php");
             include("nav.php");
         ?>
@@ -56,7 +56,7 @@
                         </div>
                         <div class="x_panel">
                             <div class="x_title">
-                                <h2>Visión</h2>
+                                <h2>Quiénes Somos</h2>
                                 <div class="clearfix"></div>
                             </div>
                             <form id="vision" action="../routes/quienes_somos.php" method="POST">
